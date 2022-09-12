@@ -1,3 +1,4 @@
+using System.Collections;
 using SortedBagExample.Interfaces;
 
 namespace SortedBagExample.Implementation;
@@ -20,7 +21,8 @@ public class SortedBag : ISortedBag
 
     public int Fetch()
     {
-        var smallest = Items.OrderBy(arg => Items);
-        return 0;
+        var smallest = Items.Min().Value;
+        Items.Remove(smallest);
+        return smallest;
     }
 }

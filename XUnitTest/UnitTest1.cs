@@ -1,3 +1,4 @@
+using System.Collections;
 using SortedBagExample.Implementation;
 using SortedBagExample.Interfaces;
 
@@ -39,4 +40,31 @@ public class UnitTest1
         Assert.NotEmpty(bag.Items);
         Assert.True(bag.Items.ContainsValue(numberToAdd));
     }
+
+    [Fact]
+    public void FetchFromSortedBag()
+    {
+        //Arrange
+        ISortedBag bag;
+        var expected = 1;
+        
+        //Act
+        bag = new SortedBag();
+        bag.Add(1);
+        bag.Add(2);
+        bag.Add(3);
+        
+        //Assert
+        Assert.True(bag.Fetch() == expected);
+        Assert.True(bag.Items.ContainsValue(expected));
+        Assert.True(bag.Items.ContainsKey(expected));
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 }
