@@ -22,7 +22,7 @@ public class SortedBag : ISortedBag
     public int Fetch()
     {
         var smallest = Items.Min().Value;
-        Items.Remove(smallest);
+        Items.Remove(Items.Min().Key);
         return smallest;
     }
 }

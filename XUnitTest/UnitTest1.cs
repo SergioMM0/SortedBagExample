@@ -55,7 +55,7 @@ public class UnitTest1
         bag.Add(3);
         
         //Assert
-        Assert.True(bag.Fetch() == expected);
+        Assert.True(bag.Fetch().Equals(expected));
         Assert.True(bag.Items.ContainsValue(expected));
         Assert.True(bag.Items.ContainsKey(expected));
     }
