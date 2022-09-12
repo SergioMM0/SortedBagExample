@@ -1,0 +1,12 @@
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\bin\Debug\net6.0\SortedBagExample.deps.json
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\bin\Debug\net6.0\SortedBagExample.dll
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\bin\Debug\net6.0\SortedBagExample.pdb
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\obj\Debug\net6.0\SortedBagExample.csproj.AssemblyReference.cache
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\obj\Debug\net6.0\SortedBagExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\obj\Debug\net6.0\SortedBagExample.AssemblyInfoInputs.cache
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\obj\Debug\net6.0\SortedBagExample.AssemblyInfo.cs
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\obj\Debug\net6.0\SortedBagExample.csproj.CoreCompileInputs.cache
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\obj\Debug\net6.0\SortedBagExample.dll
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\obj\Debug\net6.0\refint\SortedBagExample.dll
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\obj\Debug\net6.0\SortedBagExample.pdb
+C:\Users\Sergio M\RiderProjects\SortedBagExample\SortedBagExample\obj\Debug\net6.0\ref\SortedBagExample.dll
