@@ -36,6 +36,7 @@ public class UnitTest1
         bag.Add(numberToAdd);
         
         //Assert
-        Assert.Contains<int>(numberToAdd);
+        Assert.NotEmpty(bag.Items);
+        Assert.True(bag.Items.ContainsValue(numberToAdd));
     }
 }

@@ -15,11 +15,12 @@ public class SortedBag : ISortedBag
 
     public void Add(int number)
     {
-        throw new NotImplementedException();
+        Items.Add(number,number);
     }
 
     public int Fetch()
     {
-        throw new NotImplementedException();
+        var smallest = Items.OrderBy(arg => Items);
+        return 0;
     }
 }
