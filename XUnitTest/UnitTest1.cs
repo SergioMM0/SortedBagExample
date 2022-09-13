@@ -55,9 +55,43 @@ public class UnitTest1
         bag.Add(3);
         
         //Assert
-        Assert.True(bag.Fetch().Equals(expected));
-        Assert.True(bag.Items.ContainsValue(expected));
-        Assert.True(bag.Items.ContainsKey(expected));
+        Assert.True(bag.Fetch() == expected);
+        Assert.False(bag.Items.ContainsValue(expected));
+        Assert.False(bag.Items.ContainsKey(expected));
+    }
+
+    [Fact]
+    public void FetchFromSortedBagBiggerNumbers()
+    {
+        //Arrange
+        ISortedBag bag;
+        var expected = 20;
+        
+        //Act
+        bag = new SortedBag();
+        bag.Add(40);
+        bag.Add(20);
+        bag.Add(80);
+        
+        //Assert
+        Assert.True(bag.Fetch() == expected);
+        Assert.False(bag.Items.ContainsValue(expected));
+        Assert.False(bag.Items.ContainsKey(expected));
+    }
+
+    [Fact]
+    public void FetchFromEmptySortedBagThrowsException()
+    {
+        //Arrange
+        ISortedBag bag;
+
+        //Act
+        bag = new SortedBag();
+        Action act = () => bag.Fetch();
+
+        //Assert
+        InvalidOperationException exception = Assert.Throws<InvalidOperationException>(act);
+        Assert.Equal("Operation not available", exception.Message);
     }
     
     

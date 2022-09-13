@@ -21,8 +21,20 @@ public class SortedBag : ISortedBag
 
     public int Fetch()
     {
-        var smallest = Items.Min().Value;
-        Items.Remove(Items.Min().Key);
-        return smallest;
+        if (Items.Any())
+        {
+            var smallest = Items.First().Value;
+            foreach (KeyValuePair<int,int> kvp in Items)
+            {
+                if (kvp.Value < smallest)
+                {
+                    smallest = kvp.Value;
+                }
+            }
+
+            Items.Remove(smallest);
+            return smallest;
+        }
+        throw new InvalidOperationException("Operation not available");
     }
 }

@@ -1,10 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a1799a1a_002D6c5a_002D4511_002Dbf13_002D55339c1a1158/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateSortedBag" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::B9E17908-8919-4EA4-BD6F-F3558EE2A401::net6.0::XUnitTest.UnitTest1.CreateSortedBag&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::B9E17908-8919-4EA4-BD6F-F3558EE2A401::net6.0::XUnitTest.UnitTest1.AddToSortedBag&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
+	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=baf5e354_002Df6f6_002D4221_002D859f_002Dc6b61efa388c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddToSortedBag" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::B9E17908-8919-4EA4-BD6F-F3558EE2A401::net6.0::XUnitTest.UnitTest1&lt;/TestId&gt;&#xD;
