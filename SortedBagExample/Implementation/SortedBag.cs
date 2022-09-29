@@ -5,7 +5,11 @@ namespace SortedBagExample.Implementation;
 
 public class SortedBag : ISortedBag
 {
-    public int Count => Items.Count;
+    public int Count
+    {
+        get;
+        private set;
+    }
 
     public SortedList<int, int> Items { get; private set; }
 
@@ -16,7 +20,16 @@ public class SortedBag : ISortedBag
 
     public void Add(int number)
     {
-        Items.Add(number,number);
+        if (!Items.ContainsKey(number))
+        {
+            Items.Add(number,1);
+        }
+        else
+        {
+            Items[number]++;
+        }
+
+        Count++;
     }
 
     public int Fetch()
